@@ -59,3 +59,48 @@
   font-weight: 550;
   text-align: justify;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    align-items: center;
+    justify-content: center;
+    padding: 100px 10px;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+  }
+
+  .texts {
+    align-items: center;
+    justify-content: center;
+    padding-right: 0px;
+    gap: 30px;
+  }
+
+  .img {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+  }
+
+  .texts h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .texts p {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+
+}

@@ -3,6 +3,7 @@ import React from "react";
 import styles from "./navbar.module.css";
 import Darkmode from "../DarkModeToggle/DarkModeToggle";
 import { signOut, useSession } from "next-auth/react";
+import MobileMenu from "../MobileMenu/MobileMenu";
 
 const Navbar = () => {
   const session = useSession();
@@ -38,6 +39,9 @@ const Navbar = () => {
             </Link>
           </button>
         )}
+      </div>
+      <div className={styles.mobmenu}>
+        <MobileMenu />
       </div>
     </div>
   );

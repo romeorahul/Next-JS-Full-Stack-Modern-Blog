@@ -1,0 +1,9 @@
+.mobcontainer {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.link {
+    margin: 5px;
+}

@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .logo h1 {
@@ -19,6 +20,7 @@
     gap: 2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    /* display: block; */
 }
 
 .logout {
@@ -31,4 +33,19 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .links {
+        display: none;
+    }
+    
+    .container {
+        padding: 10px 50px;
+        height: 30vh;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+
 }
