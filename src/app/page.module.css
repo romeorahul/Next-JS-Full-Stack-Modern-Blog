@@ -53,11 +53,66 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.innerbox h1 {
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .texts p {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   font-weight: 550;
   text-align: justify;
+}
+
+/* about section starts from here  */
+.serviceimg {
+  width: 60px;
+  height: 60px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.aboutheading {
+  text-align: center;
+  font-size: 55px;
+  padding: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.innerbox {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  border: 2px solid rgba(225, 217, 217, 0.395);
+  margin: 7px;
+  gap: 15px;
+  border-radius: 20px;
+}
+
+.aboutbtn {
+  background-color: rgb(215, 37, 37);
+  color: rgb(255, 255, 255);
+  padding: 10px 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.aboutbtn:hover {
+  background-color: rgb(139, 8, 8);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
