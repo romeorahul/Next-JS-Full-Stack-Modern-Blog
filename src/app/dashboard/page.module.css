@@ -17,7 +17,6 @@
 .imgContainer {
     width: 200px;
     height: 100px;
-    position: ;
 }
 .img {
    object-fit: cover;
@@ -51,4 +50,9 @@
     border-radius: 3px;
     border: none;
     cursor: pointer;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
 }

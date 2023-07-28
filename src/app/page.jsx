@@ -36,6 +36,8 @@ const page = () => {
         </div>
       </div>
 
+      {/* services section starts from here */}
+
       <div className={styles.about}>
         <h1 className={styles.aboutheading}>Our Services</h1>
         <div className={styles.box}>
@@ -89,6 +91,8 @@ const page = () => {
           </div>
         </div>
       </div>
+
+      {/* services section ends here  */}
     </>
   );
 };

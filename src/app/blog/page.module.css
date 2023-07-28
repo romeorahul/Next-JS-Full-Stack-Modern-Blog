@@ -68,3 +68,8 @@
 .blogHeading {
     font-size: 60px !important;
 }
+
+.loader {
+    display: flex;
+    justify-content: center;
+}
