@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import HomeImg from "public/hero.png";
@@ -6,6 +7,14 @@ import { db } from "@/utils/db";
 import web from "public/web.svg";
 import android from "public/android.svg";
 import graphic from "public/graphic.svg";
+import Slider from "@component/components/Slider/Slider";
+
+const images = [
+  "/image1.jpg",
+  "/image2.jpg",
+  "/image3.jpg",
+  // Add more image URLs as needed
+];
 
 // Rest of your server setup and routes
 
@@ -18,6 +27,12 @@ process.on("SIGINT", () => {
 });
 
 const page = () => {
+  const images = [
+    "/image1.jpg",
+    "/image2.jpg",
+    "/image3.jpg",
+    // Add more image URLs as needed
+  ];
   return (
     <>
       <div className={styles.container}>
@@ -54,7 +69,7 @@ const page = () => {
             <button className={styles.aboutbtn}>Read More</button>
           </div>
           <div className={styles.innerbox}>
-            <Image src={graphic} className={styles.serviceimg} />
+            <Image src={web} className={styles.serviceimg} />
             <h1>Web development</h1>
             <p>It is a long established fact that a reader</p>
             <button className={styles.aboutbtn}>Read More</button>
@@ -93,6 +108,7 @@ const page = () => {
       </div>
 
       {/* services section ends here  */}
+      <Slider />
     </>
   );
 };

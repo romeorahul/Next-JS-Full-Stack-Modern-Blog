@@ -1,0 +1,47 @@
+.sliderbox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.sliderbox h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.contentslider {
+      padding: 50px;
+      height: 220px;
+      color: white;
+      border: 1px solid red;
+      display: flex;
+}
+
+
+.contentslider h1 {
+    font-size: 35px;
+    text-align: start;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.contentslider p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.contentslider button {
+    padding: 8px 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slick-slider button {
+    font-size: 100px;
+}

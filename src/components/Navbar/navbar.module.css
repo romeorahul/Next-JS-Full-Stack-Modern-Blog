@@ -10,7 +10,9 @@
 }
 
 .logo h1 {
-    font-family: 'Josefin Sans', sans-serif
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 5px;
+    margin-left: -20px;
 }
 
 .links {
@@ -42,7 +44,7 @@
     
     .container {
         padding: 10px 50px;
-        height: 30vh;
+        height: 20vh;
         justify-content: space-between;
         margin-bottom: 50px;
     }

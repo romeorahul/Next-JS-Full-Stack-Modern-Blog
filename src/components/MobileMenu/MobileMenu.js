@@ -42,7 +42,7 @@ const MobileMenu = () => {
           display: none; /* Hidden by default, will be shown on mobile */
           position: absolute;
           margin-right: 100px;
-          top: 60px;
+          top: 47px;
         }
 
         .menu-icon {

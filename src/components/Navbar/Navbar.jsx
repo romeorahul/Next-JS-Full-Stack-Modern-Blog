@@ -13,7 +13,7 @@ const Navbar = () => {
         <h1>MODERN BLOG</h1>
       </div>
       <div className={styles.links}>
-        <Darkmode />
+        {/* <Darkmode /> */}
         <Link href={"/"} className={styles.link}>
           Home
         </Link>
